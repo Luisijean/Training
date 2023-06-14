@@ -1,0 +1,12 @@
+Installer git et se connecter:
+
+
+-	pas de mdp : creer un token comme mdp sur github pour creer un nouveau token
+
+- 	push une deuxième fois pour Maj un code:
+
+		git add.
+		git commit
+		git push -u origin main
+
+-	lien vidéo & mise en ligne rapide via GitHub : https://www.youtube.com/watch?v=eXF0epLeCgo&t=1s

@@ -1,0 +1,82 @@
+Travailler a plusieurs sur GitHub :
+
+-	git clone lien GitHub
+-	git add .
+-	git commit - m "message"
+-	git push -u origin main
+
+
+Récupérer dernière Maj
+
+-	git pull
+
+gitignore:
+
+Chose non commit sur GitHub 
+
+.gitignore
+
+/notes.txt (a non commit)
+
+
+Read me:
+
+-	Expliquer projets et requirements 
+
+
+Autorisation pour push sur un autre GitHub:
+
+Interface GitHub: Setting - manage access - invite a collaborator - 
+
+
+Via VS code:
+
+Ouvrir console: Gitbash
+
+
+
+Conflit:
+
+-	Changement simultané du même code
+
+-	Message erreur car pas la dernière version
+
+
+--> création de branche:
+
+Créer une branche afin de ne pas avoir de conflit et travailler des features seul de son coté
+git branch
+
+-	git branch nom_branche
+
+Étoile: savoir sur quelle branche on est 
+
+
+Changer de branche: 
+
+-	git checkout nom_branche
+
+
+Envoyer la branche de local vers le GitHub
+
+-	git push --set-upstream origin nom_branche
+
+
+Une branche reprend tout le fichier main pour le mettre ailleurs
+
+Push sur une branche:
+
+-	git push -u origin nom_branche
+
+
+Fusionner les branches:
+
+-	git merge nom_branche
+
+Ou via interface GitHub
+
+
+
+Lien vidéo: https://www.youtube.com/watch?v=yqA4Q6jHnfc
+
+
